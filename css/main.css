@@ -1,3 +1,87 @@
 /*
  * Estilos de tu proyecto
  */
+
+
+ /*Body*/
+ body {
+    font-family: 'Montserrat', sans-serif; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;   
+ }
+ 
+ /*HEADER*/
+ header {
+     position: fixed;
+     display: inline-block;
+     background: transparent;
+     top: 0;
+     height: 20px;
+     }
+
+ header figure,nav{
+     display: inline-block;
+ }
+
+ .logo-header{
+    color: white;
+    height: 100px;
+    width: 120px;
+ }
+
+ header li{
+     list-style: none;
+     display: inline-block;
+ }
+
+ header li a{
+     text-decoration: none;
+     color: white;
+     padding: 20px;
+ }
+ .first-part, .second-part {
+ }                             
+
+/*First part*/
+.first-part{
+    margin-top:0px;
+    
+    background-size:70% ;
+    background-repeat: no-repeat;
+    background-image: url(../assets/images/hero.gif)
+}
+
+.container1{
+    background-color: white;
+
+}
+.box1{
+    float: right;
+}
+.form{
+    display: inline-block;
+    position: relative;
+    left: 50px;
+}
+
+.second-part{
+    background: transparent;
+    
+}
+
+
+.container2 h1{
+margin: 0;
+padding: 0;
+}
+
+.box{
+    background: transparent;
+}
+
+
+.container5{
+    display: inline-block;
+}
